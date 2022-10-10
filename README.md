@@ -4,3 +4,4 @@
 2. User Task's CRUD
 3. Sorting and Pagination
 4. Sending Emails
+5. PostgreSQL
