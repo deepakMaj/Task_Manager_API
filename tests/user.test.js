@@ -126,3 +126,13 @@ test("Should not update invalid user fields", async () => {
     })
     .expect(400);
 });
+
+// test("Should not update invalid user fields", async () => {
+//   await request(app)
+//     .patch("/users/me")
+//     .set("Authorization", `Bearer ${userOne.tokens[0].token}`)
+//     .send({
+//       location: "London"
+//     })
+//     .expect(400);
+// });
